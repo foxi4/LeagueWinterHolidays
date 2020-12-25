@@ -58,6 +58,7 @@ class SnowMan:
         radiusEyes = 0.25 * self.radiusTop
     
         # Inverted color
+        noStroke()
         fill(self.inverted)
         ellipse(self.x - (self.radiusTop/4), self.offsetTop - (self.radiusTop/4), radiusEyes, radiusEyes)
         ellipse(self.x + (self.radiusTop/4), self.offsetTop - (self.radiusTop/4), radiusEyes, radiusEyes)
@@ -80,6 +81,7 @@ class SnowMan:
         topWidth = 0.5 * brimWidth
         topHeight = self.radiusTop
     
+        noStroke()
         fill(1)
         rect(self.x - brimWidth/2, self.offsetTop - self.radiusTop, brimWidth, brimHeight)
         rect(self.x - topWidth/2, self.offsetTop - self.radiusTop - topHeight, topWidth, topHeight)

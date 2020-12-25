@@ -5,7 +5,7 @@ from Snowflakes import Snowflakes
 def setup():
     # 1. Declare a global variable for a background image, e.g.
     #    global bg
-    
+
     # 2. Declare a global variable for a snow man, e.g.
     #    global snow_man
     
@@ -25,7 +25,7 @@ def setup():
     
 def draw():
     # 7. Call background() with your background image as an input 
-    
+
     # 8. Run your code.
     #    Do you see your background?
     
